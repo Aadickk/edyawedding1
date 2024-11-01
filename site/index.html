@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Еділ - Жанеля</h1>
+            <h2>14/12/2024</h2>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+            <p>​Улы тойдын келтіргендей</p>
+            <p>орайын,</p>
+            <p>Куанышка толып жатыр </p>
+            <p>манайым.</p>
+            <p>Бір боламыз екеу болды</p>
+            <p>мінекей,</p>
+            <p> Тойга келіп батанды бер</p>
+            <p>агайын</p> 
+    </section>
+
+    <!-- Event Details Section -->
+    <section class="event-details">
+        <h2>ҚҰРМЕТТІ ҚОНАҚТАР!</h2>
+        <p>Сіздерді балаларымыз</p>
+        <h5> Еділ мен Жанелянын</h5>
+        <p>үйлену тойына арналған</p>
+        <p>салтанатты ақ дастарханымыздың</p>
+        <p>қадірлі қонағы болуға шақырамыз!</p>
+        <div class="image-container">
+            <img src="images/noroot.png" alt="Описание фото" />
+        </div>
+        
+        <div class="image-container">
+            <img src="images/5.png" alt="Data" />
+        </div>
+
+        <div class="image-container1">
+            <img src="images/8.png" alt="Data" />
+        </div>
+
+    <section class="event-details">
+            <h2>Той йелері:</h2>
+            <h5>Бердала - Гулбану</h5>
+            <div class="image-container2">
+                <img src="images/noroot1.png" alt="Описание фото" />
+            </div>
+            
+    </section>
+        
+
+    <!-- Photo Gallery Section -->  
+    <section class="gallery">
+        <h2>МЕКЕН-ЖАЙЫ</h2>
+        <p>Астана қаласы, Қайым Мухамедханов 52/1</p>
+        <a href="https://2gis.kz/astana/geo/70000001090142875" target="_blank" rel="noopener noreferrer">
+            <img src="images/2gis.png" alt="2gis" width="50" height="50">
+        </a>
+    </section>
+
+
+    <section class="countdown">
+        <div class="countdown-overlay">
+            <h2>Уйлену тойына дейін</h2>
+            <div id="countdown-timer">
+                <div class="time-box">
+                    <span id="days">0</span>
+                    <p>Кун</p>
+                </div>
+                <div class="time-box">
+                    <span id="hours">0</span>
+                    <p>Сағат</p>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">0</span>
+                    <p>Минут</p>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">0</span>
+                    <p>Секунд</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp">
+        <h2>Анкета</h2>
+        <p>Тойға қатысуыңызды</p>
+        <p>растауңызды сұраймыз!</p>
+        <form id="rsvpForm">
+            <input type="text" name="name" placeholder="Аты-жөніңіз" required>
+    
+            <div class="attendance-options">
+                <label>
+                    <input type="radio" name="attendance" value="coming" required>
+                    Келемін
+                </label>
+    
+                <label>
+                    <input type="radio" name="attendance" value="comingWithPair" required>
+                    Жұбыммен келем
+                </label>
+    
+                <div id="pairNameField" style="display: none;">
+                    <label for="pairName">Аты-жөні:</label>
+                    <input type="text" id="pairName" name="pairName" placeholder="Аты-жөні">
+                </div>
+    
+                <label>
+                    <input type="radio" name="attendance" value="notComing" required>
+                    Өкінішке орай. қатыса алмаймын
+                </label>
+            </div>
+    
+            <button type="submit">Жіберу</button>
+        </form>
+    </section>
+    
+
+</body>
+</html>
